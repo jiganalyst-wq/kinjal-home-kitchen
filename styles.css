@@ -91,3 +91,211 @@ body {
   padding-top: 1.5rem;
   margin-top: 2rem;
 }
+/* Recipe card layout */
+.recipe-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+
+.recipe-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #00684f;
+  background: #e8f7f1;
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  margin-top: 0.4rem;
+  line-height: 1.2;
+  width: fit-content;
+}
+
+.card-desc {
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0.5rem 0 1rem 0;
+  max-width: 60ch;
+}
+
+/* Quick facts row */
+.quick-facts {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* Collapsible blocks */
+.details-block {
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 0.75rem;
+}
+
+.details-block summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.details-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.details-block summary::after {
+  content: "›";
+  font-weight: 400;
+  float: right;
+}
+
+details[open] summary::after {
+  content: "ˇ";
+}
+
+.details-block ul,
+.details-block ol {
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  color: #444;
+}
+
+.details-block li {
+  margin-bottom: 0.4rem;
+}
+/* Recipe card layout */
+.recipe-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+
+.recipe-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #00684f;
+  background: #e8f7f1;
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  margin-top: 0.4rem;
+  line-height: 1.2;
+  width: fit-content;
+}
+
+.card-desc {
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0.5rem 0 1rem 0;
+  max-width: 60ch;
+}
+
+/* Quick facts row */
+.quick-facts {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* Collapsible blocks */
+.details-block {
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 0.75rem;
+}
+
+.details-block summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.details-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.details-block summary::after {
+  content: "›";
+  font-weight: 400;
+  float: right;
+}
+
+details[open] summary::after {
+  content: "ˇ";
+}
+
+.details-block ul,
+.details-block ol {
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  color: #444;
+}
+
+.details-block li {
+  margin-bottom: 0.4rem;
+}
