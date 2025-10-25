@@ -8,132 +8,58 @@
 </head>
 
 <body>
-  <main class="home-wrapper">
-    <header class="home-header">
-      <h1>Kinjal Home Kitchen</h1>
-      <p class="subtitle">
-        Clean Indian recipes you can actually cook on a weeknight.<br>
-        <span class="highlight">High-protein. Simple ingredients. No drama.</span>
-      </p>
+  <main class="page-shell">
+
+    <!-- HERO / HEADER -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="brand">Kinjal Home Kitchen</h1>
+          <p class="hero-line">
+            Clean Indian recipes you can actually cook on a weeknight.
+          </p>
+          <p class="hero-sub">
+            High-protein. Simple ingredients. No drama.
+          </p>
+
+          <div class="pill-row">
+            <span class="pill">Vegetarian friendly</span>
+            <span class="pill">30 min or less</span>
+            <span class="pill">Home flavors, not restaurant oil</span>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <!-- stock image: simple thali / homey meal vibe -->
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1603898037225-9b358a11fdd8?auto=format&fit=crop&w=800&q=80"
+            alt="Simple Indian home-style meal in a bowl"
+          />
+        </div>
+      </div>
     </header>
 
-    <!-- 🌿 Recipe 1 -->
-    <section class="recipe-card">
-      <h2>🥬 Spinach, Avocado Smoothie with Banana</h2>
-      <p class="badge">Breakfast Fuel</p>
-      <p class="desc">
-        Spinach + basil + avocado + banana blended with coconut milk, lemon, chia, and ice.
-        Topped with soaked falooda (subza) seeds. Cold, filling, clean.
-      </p>
-      <ul class="facts">
-        <li>⏱ ~10 min</li>
-        <li>🥬 Spinach + basil</li>
-        <li>🧊 Makes ~3 glasses</li>
-      </ul>
-
-      <details>
-        <summary>Ingredients</summary>
-        <ul>
-          <li>Spinach</li>
-          <li>Basil</li>
-          <li>Avocado</li>
-          <li>Banana</li>
-          <li>Coconut milk</li>
-          <li>Chia seeds</li>
-          <li>Falooda (subza) seeds</li>
-          <li>Lemon juice</li>
-          <li>Water + ice</li>
-        </ul>
-      </details>
-
-      <details>
-        <summary>Steps</summary>
-        <ol>
-          <li>Blend everything until smooth.</li>
-          <li>Top with soaked falooda seeds.</li>
-          <li>Serve cold immediately.</li>
-        </ol>
-      </details>
+    <!-- SECTION TITLE -->
+    <section class="section-header">
+      <h2 class="section-title">This week’s recipes</h2>
+      <p class="section-desc">Fast, nourishing, weekday-approved.</p>
     </section>
 
-    <!-- 🍊 Recipe 2 -->
-    <section class="recipe-card">
-      <h2>🍊 Papaya Orange Drink</h2>
-      <p class="badge">Vitamin C Boost</p>
-      <p class="desc">
-        Fresh orange juice + ripe papaya + thick coconut milk. Blend, then pour over crushed ice.
-        Summer in a glass.
-      </p>
-      <ul class="facts">
-        <li>⏱ ~5 min</li>
-        <li>🍊 No added sugar</li>
-        <li>🥭 Hydrating</li>
-      </ul>
+    <!-- RECIPE GRID -->
+    <section class="recipes-grid">
 
-      <details>
-        <summary>Ingredients</summary>
-        <ul>
-          <li>Fresh orange juice</li>
-          <li>Ripe papaya</li>
-          <li>Thick coconut milk</li>
-          <li>Crushed ice</li>
-        </ul>
-      </details>
+      <!-- CARD 1: Smoothie -->
+      <article class="recipe-card">
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="https://images.unsplash.com/photo-1510626176961-4b37d0f0b4b0?auto=format&fit=crop&w=800&q=80"
+            alt="Green smoothie in a glass"
+          />
+          <div class="card-chip">Breakfast Fuel</div>
+        </div>
 
-      <details>
-        <summary>Steps</summary>
-        <ol>
-          <li>Blend orange, papaya, and coconut milk until smooth.</li>
-          <li>Pour over crushed ice.</li>
-          <li>Serve immediately.</li>
-        </ol>
-      </details>
-    </section>
-
-    <!-- 🫘 Recipe 3 -->
-    <section class="recipe-card">
-      <h2>🫘 Mixed Pulses with Vegetables</h2>
-      <p class="badge">Protein Bowl</p>
-      <p class="desc">
-        Moong, kala chana, and masoor tossed with onions, blanched cauliflower,
-        baby onions, garlic, and a Kashmiri chili–coriander–cumin paste.
-        Bright lemon at the end.
-      </p>
-      <ul class="facts">
-        <li>⏱ ~25 min</li>
-        <li>🫘 Fiber + protein</li>
-        <li>🌶 Chili + garlic flavor</li>
-      </ul>
-
-      <details>
-        <summary>Ingredients</summary>
-        <ul>
-          <li>Moong (whole green gram)</li>
-          <li>Kala chana (brown chickpeas)</li>
-          <li>Masoor (red lentils)</li>
-          <li>Onion, baby onions</li>
-          <li>Blanched cauliflower</li>
-          <li>Garlic, ginger</li>
-          <li>Kashmiri red chilli</li>
-          <li>Coriander + cumin seeds</li>
-          <li>Lemon juice, salt</li>
-        </ul>
-      </details>
-
-      <details>
-        <summary>Steps</summary>
-        <ol>
-          <li>Cook pulses until tender.</li>
-          <li>Blend garlic, chilli, coriander, cumin, ginger with water to make a paste.</li>
-          <li>Sauté onions and cauliflower, add pulses and paste.</li>
-          <li>Season with salt and lemon juice. Garnish with coriander.</li>
-        </ol>
-      </details>
-    </section>
-
-    <footer class="footer">
-      <p>© 2025 Kinjal Home Kitchen — small batch, homestyle, not restaurant food.</p>
-    </footer>
-  </main>
-</body>
-</html>
+        <div class="card-body">
+          <h3 class="card-title">🥬 Spinach, Avocado Smoothie with Banana</h3>
+          <p class="card-desc">
