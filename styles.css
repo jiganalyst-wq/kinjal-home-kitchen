@@ -1,41 +1,93 @@
-/* Details dropdown styling in recipe cards */
-.details-block {
-  background: #fafafa;
-  border: 1px solid #e8e8e8;
-  border-radius: 12px;
-  padding: 0.75rem 0.9rem;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  color: #333;
+body {
+  font-family: system-ui, -apple-system, "Inter", sans-serif;
+  background-color: #fdfdfb;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper {
+  max-width: 700px;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.home-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.subtitle {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-top: 0.75rem;
 }
 
-.details-block summary {
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 0.8rem;
+.highlight {
+  color: #008b65;
+  font-weight: 500;
+}
+
+.recipe {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+
+.recipe h2 {
+  font-size: 1.2rem;
   color: #111;
-  margin-bottom: 0.5rem;
-}
-.details-block summary::-webkit-details-marker {
-  display: none;
-}
-.details-block summary:after {
-  content: "›";
-  font-weight: 400;
-  float: right;
-}
-details[open] summary:after {
-  content: "ˇ";
-}
-.details-block ul,
-.details-block ol {
-  margin-top: 0.75rem;
-  padding-left: 1rem;
-}
-.details-block li {
   margin-bottom: 0.4rem;
 }
-.details-block p {
+
+.summary {
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.recipe h3 {
+  font-size: 0.9rem;
+  color: #222;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.recipe ul, .recipe ol {
+  margin-left: 1rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: #f2f2f2;
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
   margin-top: 0.75rem;
+  color: #555;
+}
+
+.footer {
+  text-align: center;
+  color: #777;
+  font-size: 0.8rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
 }
