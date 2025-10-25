@@ -1,0 +1,41 @@
+/* Details dropdown styling in recipe cards */
+.details-block {
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #333;
+  margin-top: 0.75rem;
+}
+
+.details-block summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+.details-block summary::-webkit-details-marker {
+  display: none;
+}
+.details-block summary:after {
+  content: "›";
+  font-weight: 400;
+  float: right;
+}
+details[open] summary:after {
+  content: "ˇ";
+}
+.details-block ul,
+.details-block ol {
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+}
+.details-block li {
+  margin-bottom: 0.4rem;
+}
+.details-block p {
+  margin-top: 0.75rem;
+}
